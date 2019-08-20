@@ -1,12 +1,11 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    博客: /blog
+    微博: http://weibo.com/574954033
+    RAY: http://www.rayliao.com/
+    github: https://github.com/rayliao
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /favicon.jpeg
+logo: /favicon.jpeg
 
 # Comment
 # e.g disqus: seansun
@@ -18,4 +17,4 @@ duoshuo:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017

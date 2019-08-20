@@ -1,6 +1,10 @@
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
+        if item.tags && item.tags.length
+            - item.tags.each(function(tag) {
+                a(class="post-tag", href=url_for(tag.path))= "#" + tag.name
+            - })
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
 
