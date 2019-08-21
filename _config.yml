@@ -1,8 +1,8 @@
 menu:
-    博客: /blog
-    微博: http://weibo.com/574954033
+    archives: /archives
     RAY: http://www.rayliao.com/
     github: https://github.com/rayliao
+    微博: http://weibo.com/574954033
 
 favicon: /favicon.jpeg
 logo: /favicon.jpeg
