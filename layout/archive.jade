@@ -1,8 +1,6 @@
 extends partial/layout
 
 block container
-    .list-tags
-        != list_tags({show_count: true, orderby: 'length', order: -1})
     include mixins/post
     +postList()
 
