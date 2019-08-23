@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="<%- config.language %>">
+<head>
+	<%- partial('_partial/head') %>
+</head>
+<body>
+	<div class="wrap">
+		<header></header>
+		<main class="container">
+
+		</main>
+		<footer></footer>
+	</div>
+	.wrap
+			header
+					a.logo-link(href=url_for())
+							img(src=url_for(theme.logo) alt="logo")
+					include nav
+			main.container
+					block container
+			footer
+					block pagination
+					block copyright
+	include scripts
+</body>
+</html>
