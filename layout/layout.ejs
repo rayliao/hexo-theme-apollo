@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="<%- config.language %>">
+
 <head>
 	<%- partial('_partial/head') %>
 </head>
+
 <body>
 	<div class="wrap">
 		<header>
@@ -15,8 +17,22 @@
 			<%- body %>
 		</main>
 		<footer>
-			123
+			<%- partial('_partial/paginator') %>
+			<div class="copyright">
+				<%
+					var hexoURL = "https://hexo.io/";
+					var apolloURL = "https://github.com/rayliao/hexo-theme-apollo";
+					var currentDate = new Date();
+					var year = currentDate.getFullYear();
+					year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
+				%>
+				<p>© <%= year %> <a href="<%- config.url %>"><%= config.author%></a>, powered by <a
+						href="<%- hexoURL %>" target="_blank">Hexo</a> and <a href="<%- apolloURL %>"
+						target="_blank">hexo-theme-apollo</a>.
+				</p>
+			</div>
 		</footer>
 	</div>
 </body>
+
 </html>
