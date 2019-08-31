@@ -1,8 +1,8 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    archives: /archives
+    RAY: http://www.rayliao.com/
+    github: https://github.com/rayliao
+    微博: http://weibo.com/574954033
 
 favicon: /favicon.jpeg
 logo: /favicon.jpeg
@@ -17,4 +17,4 @@ duoshuo:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2016
