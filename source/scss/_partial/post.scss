@@ -5,12 +5,12 @@
 .post-block {
   .post-title {
     margin: .65em 0;
-    color: #2c3e50;
+    color: var(--on-background-color);
     font-size: 1.5em;
   }
 
   .post-info {
-    color: #7f8c8d;
+    color: var(--light-color);
     margin: 1.2em 0;
 
     span {
@@ -29,7 +29,7 @@
 
   .post-tag {
     margin-left: 5px;
-    color: #42b983;
+    color: var(--primary-color);
   }
 }
 
@@ -44,7 +44,7 @@
 
     a:before {
       content: "#";
-      color: #42b983;
+      color: var(--primary-color);
       position: absolute;
       left: -0.7em;
       top: -4px;
@@ -73,14 +73,14 @@
   }
 
   a {
-    color: #42b983;
+    color: var(--primary-color);
     word-break: break-all;
   }
 
   blockquote {
     margin: 2em 0;
     padding-left: 20px;
-    border-left: 4px solid #42b983;
+    border-left: 4px solid var(--primary-color);;
   }
 
   img {

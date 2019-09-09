@@ -14,9 +14,9 @@
   font-weight: normal;
   font-style: normal;
 }
-// @media screen and (prefers-color-scheme: dark) {
-//   html {
-//     --background-color: hsl($hue, 5%, 15%);
-//     --on-background-color: hsl($hue, 5%, 95%);
-//   }
-// }
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    --background-color: hsl($hue, 5%, 15%);
+    --on-background-color: hsl($hue, 5%, 95%);
+  }
+}

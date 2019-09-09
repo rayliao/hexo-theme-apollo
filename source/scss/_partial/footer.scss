@@ -9,11 +9,11 @@
     padding: 4px 12px;
     border-radius: 4px;
     font-size: 14px;
-    color: #fff;
-    background-color: #4fc08d;
+    color: var(--on-primary-color);
+    background-color: var(--primary-color);
 
     &:hover {
-      background-color: #22bd77;
+      background-color: var(--primary-hover-color);
     }
   }
 }
