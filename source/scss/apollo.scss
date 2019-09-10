@@ -17,6 +17,10 @@
 @media screen and (prefers-color-scheme: dark) {
   html {
     --background-color: hsl($hue, 5%, 15%);
-    --on-background-color: hsl($hue, 5%, 95%);
+    --on-background-color: hsl($hue, 5%, 90%);
+    --border-color: hsl($hue, 5%, 25%);
+    --secondary-color: hsl($secondary-hue, 5%, 25%);
+    --on-secondary-normal: hsl($secondary-hue, 5%, 75%);
+    --on-secondary-light: hsl($secondary-hue, 5%, 45%);
   }
 }

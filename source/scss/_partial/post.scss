@@ -138,7 +138,7 @@
 code,
 pre {
   font-size: .8em;
-  background-color: #f8f8f8;
+  background-color: var(--secondary-color);
   font-family: 'Roboto Mono', Monaco, courier, monospace;
 }
 
@@ -204,7 +204,7 @@ $signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "j
 }
 
 pre {
-  color: #525252;
+  color: var(--on-secondary-normal);
 
   .constant,
   .function .keyword {
@@ -280,7 +280,7 @@ pre {
   .shebang,
   .template_comment,
   .tex .formula {
-    color: #b3b3b3;
+    color: var(--on-secondary-light);
   }
 
   .deletion {
