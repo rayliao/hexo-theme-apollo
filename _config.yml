@@ -1,8 +1,8 @@
 menu:
-    archives: /archives
-    RAY: http://www.rayliao.com/
-    github: https://github.com/rayliao
-    weibo: http://weibo.com/574954033
+  archives: /archives
+  RAY: http://www.rayliao.com/
+  github: https://github.com/rayliao
+  weibo: http://weibo.com/574954033
 
 favicon: /favicon.jpeg
 logo: /favicon.jpeg
@@ -11,6 +11,12 @@ logo: /favicon.jpeg
 # e.g disqus: seansun
 disqus:
 duoshuo:
+gitalk:
+  on: false
+  owner: rayliao
+  repo: blog
+  admin: ['rayliao']
+  accessToken: 00f4c7413df974956ac1ad555e33bcc24fa06e25
 
 # Analytics
 # google-analytics:
