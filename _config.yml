@@ -2,7 +2,7 @@ menu:
   archives: /archives
   RAY: http://www.rayliao.com/
   github: https://github.com/rayliao
-  weibo: http://weibo.com/574954033
+  rss: /atom.xml
 
 favicon: /favicon.jpeg
 logo: /favicon.jpeg
